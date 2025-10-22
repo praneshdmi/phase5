@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IBM-FE Real-Time Stock Ticker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📈 IBM-FE Real-Time Stock Ticker</h1>
+  </header>
+
+  <!-- Scrolling Ticker Bar -->
+  <div class="ticker-container">
+    <div class="ticker-bar" id="tickerBar"></div>
+  </div>
+
+  <!-- Table -->
+  <section class="table-section">
+    <table>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Price</th>
+          <th>Change</th>
+          <th>Volume</th>
+        </tr>
+      </thead>
+      <tbody id="tickerTableBody"></tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
